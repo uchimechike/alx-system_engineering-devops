@@ -1,0 +1,13 @@
+#!/bin/bash
+for ler1 in {a..z}
+do
+	for ler2 in {a..z}
+	do
+		if [[ "ler1" = "o" ]] && [[ "$ler2" = "o" ]];
+		then
+			continue
+		else
+			echo "$ler1$ler2"
+		fi
+	done
+done
